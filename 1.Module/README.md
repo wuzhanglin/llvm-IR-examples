@@ -14,7 +14,7 @@ export SDKROOT=$(xcrun --sdk macosx --show-sdk-path)
 # Compile
 clang++ -o HelloModule `llvm-config --cxxflags --ldflags --system-libs --libs core` HelloModule.cpp
 
-# Compile with warning suppressed
+# Compile with all warnings suppressed
 clang++ -w -o HelloModule `llvm-config --cxxflags --ldflags --system-libs --libs core` HelloModule.cpp
 
 # Run
