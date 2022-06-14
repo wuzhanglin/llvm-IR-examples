@@ -1,4 +1,4 @@
-# LLVM Function IR
+# LLVM Global Variable IR
 
 ## Build and Run
 
