@@ -26,7 +26,7 @@ source_filename = "HelloModule"
 
 @helloGlobalVariable = common global i32, align 4
 
-define void @HelloFunction() {
+define i32 @HelloFunction() {
 entry:
   ret i32 0
 }
