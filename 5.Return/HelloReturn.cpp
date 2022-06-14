@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
     globalVariable->setAlignment(MaybeAlign(4));
 
     // Add a function
-    FunctionType* functionType = FunctionType::get(builder.getVoidTy(), false);
+    FunctionType* functionType = FunctionType::get(builder.getInt32Ty(), false);
     Function* function = Function::Create(functionType, GlobalValue::ExternalLinkage, "HelloFunction", module);
 
     // Create a block
