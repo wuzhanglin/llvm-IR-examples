@@ -1,4 +1,4 @@
-# LLVM Function IR
+# LLVM Block IR
 
 ## Build and Run
 
