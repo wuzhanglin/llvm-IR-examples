@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
     // Create an arithmetic statement
     Value* arg1 = function->getArg(0);
     ConstantInt* three = builder.getInt32(3);
-    Value* result = builder.CreateMul(arg1, three, "multipleResult");
+    Value* result = builder.CreateMul(arg1, three, "multiplyResult");
 
     // Add a return
     builder.CreateRet(result);
