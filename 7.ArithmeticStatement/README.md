@@ -28,7 +28,7 @@ source_filename = "HelloModule"
 
 define i32 @HelloFunction(i32 %a, i32 %b) {
 entry:
-  %multipleResult = mul i32 %a, 3
-  ret i32 %multipleResult
+  %multiplyResult = mul i32 %a, 3
+  ret i32 %multiplyResult
 }
 ```
