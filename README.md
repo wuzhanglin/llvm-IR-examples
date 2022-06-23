@@ -13,3 +13,4 @@ Some examples for using LLVM to generate IR.
 - [LLVM系列第八章：算术运算语句Arithmetic Statement](https://blog.csdn.net/Zhanglin_Wu/article/details/125289502)
 - [LLVM系列第九章：控制流语句if-else](https://blog.csdn.net/Zhanglin_Wu/article/details/125323548)
 - [LLVM系列第十章：控制流语句if-else-phi](https://blog.csdn.net/Zhanglin_Wu/article/details/125326280)
+- [LLVM系列第十七章：控制流语句for](https://blog.csdn.net/Zhanglin_Wu/article/details/125354110)
