@@ -26,7 +26,7 @@ int main(int argc, char* argv[])
     globalVariable->setLinkage(GlobalValue::CommonLinkage);
     globalVariable->setAlignment(MaybeAlign(4));
 
-    // Add a function
+    // Add a function with parameters
     std::vector<Type*> parameters(2, builder.getInt32Ty());
     FunctionType* functionType = FunctionType::get(builder.getInt32Ty(), parameters, false);
     Function* function = Function::Create(functionType, GlobalValue::ExternalLinkage, "HelloFunction", module);
