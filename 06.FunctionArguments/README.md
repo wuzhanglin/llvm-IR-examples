@@ -4,7 +4,7 @@
 
 #### Commands
 
-```
+```bash
 # Format the source code
 clang-format -i *.cpp
 
@@ -20,7 +20,7 @@ clang++ -w -o HelloFunctionArguments `llvm-config --cxxflags --ldflags --system-
 
 #### Output
 
-```
+```cpp
 ; ModuleID = 'HelloModule'
 source_filename = "HelloModule"
 
